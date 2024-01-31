@@ -1,7 +1,7 @@
 "use client";
 
-import { Button } from "@/app/_components/ui/button";
-import { Input } from "@/app/_components/ui/input";
+import { Button } from "@/app/components/ui/button";
+import { Input } from "@/app/components/ui/input";
 import { SearchIcon } from "lucide-react";
 
 const Search = () => {
