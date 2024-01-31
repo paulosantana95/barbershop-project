@@ -1,10 +1,10 @@
 import { Button } from "@/app/components/ui/button";
 import { Card, CardContent } from "@/app/components/ui/card";
-import { Barbershop as PrismaBarbershop } from "@prisma/client";
+import { Barbershop } from "@prisma/client";
 import Image from "next/image";
 
 interface BarbershopItemProps {
-  barbershop: PrismaBarbershop;
+  barbershop: Barbershop;
 }
 
 const BarbershopItem = ({ barbershop }: BarbershopItemProps) => {
