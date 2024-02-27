@@ -22,6 +22,9 @@ export default async function Home() {
             service: true,
             barbershop: true,
           },
+          orderBy: {
+            date: "desc",
+          },
         })
       : Promise.resolve([]),
   ]);
