@@ -80,6 +80,12 @@ const BookingsPage = async () => {
             </div>
           </div>
         )}
+
+        {confirmedBookings.length === 0 && finishedBookings.length === 0 && (
+          <h2 className="text-gray-400 font-bol text-sm mt-6 mb-3">
+            Você ainda não fez nenhum agendamento.
+          </h2>
+        )}
       </div>
     </>
   );
