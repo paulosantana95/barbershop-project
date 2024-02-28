@@ -2,7 +2,7 @@ import { redirect } from "next/navigation";
 import BarbershopItem from "../(home)/components/barbershop-item";
 import Header from "../components/header";
 import { db } from "../lib/prisma";
-import Search from "../(home)/components/search";
+import Search from "../components/search";
 
 interface BarbershopsPageProps {
   searchParams: {

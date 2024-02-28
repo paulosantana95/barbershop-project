@@ -1,7 +1,7 @@
 import { format } from "date-fns";
 import Header from "../components/header";
 import { ptBR } from "date-fns/locale";
-import Search from "./components/search";
+import Search from "../components/search";
 import BookingItem from "../components/booking-item";
 import { db } from "../lib/prisma";
 import BarbershopItem from "./components/barbershop-item";
