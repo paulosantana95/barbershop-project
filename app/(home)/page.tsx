@@ -25,6 +25,7 @@ export default async function Home() {
           orderBy: {
             date: "desc",
           },
+          take: 4,
         })
       : Promise.resolve([]),
   ]);
