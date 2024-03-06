@@ -4,6 +4,7 @@ services:
   postgres:
     image: postgres:latest
     container_name: barbershop
+    restart: always
     environment:
       POSTGRES_DB: barbershop
       POSTGRES_USER: admin
